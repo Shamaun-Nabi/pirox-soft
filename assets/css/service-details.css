@@ -1,0 +1,168 @@
+/*--------------------------------------------------------------
+# first Area
+--------------------------------------------------------------*/
+.first-area {
+	background-color: #ebf8ff;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+/*--------------------------------------------------------------
+# Header Area
+--------------------------------------------------------------*/
+.Banner {
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+.banner-container {
+	height: 250px;
+	width: 100%;
+	background-color: black;
+	background: center no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.6) 0%,
+			rgba(0, 0, 0, 0.6) 100%
+		),
+		url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+	color: white;
+}
+
+.btn-services {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border: 1px solid #359733;
+	padding: 14px;
+	font-size: 15px;
+	font-weight: 500;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	transition: all 0.2s ease-out;
+	text-align: center;
+	border-radius: 5px;
+	/* width: 200px; */
+}
+.btn-services:hover {
+	box-shadow: rgb(0 0 0 / 42%) -1px 11px 20px -10px,
+		rgb(0 0 0 / 0%) 0px 0px 11px 1px;
+}
+
+/*--------------------------------------------------------------
+# Header Area
+--------------------------------------------------------------*/
+.intro {
+	padding-top: 0px;
+}
+/*--------------------------------------------------------------
+# Grow Business
+--------------------------------------------------------------*/
+.grow-business span {
+	color: #359733;
+}
+
+.grow-business .description {
+	text-align: justify;
+}
+/*--------------------------------------------------------------
+# Counter
+--------------------------------------------------------------*/
+.counter-icon {
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+}
+.counter-icon:hover {
+	color: #359733;
+}
+
+/* Test-------------------------------------------------------- */
+
+.form-steps {
+	display: block;
+	width: 100%;
+	position: relative;
+	margin: 40px 0;
+}
+.form-steps:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.form-steps__item {
+	padding: 0;
+	position: relative;
+	display: block;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.form-steps__item-content {
+	display: inline-block;
+}
+.form-steps__item-icon {
+	background: #eceff1;
+	color: #8191ab;
+	display: block;
+	border-radius: 100%;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	line-height: 67px;
+	margin: 0 auto 10px auto;
+	position: relative;
+	font-size: 23px;
+	font-weight: 700;
+	z-index: 2;
+}
+.form-steps__item-text {
+	font-size: 15px;
+	color: #8191ab;
+	font-weight: 500;
+}
+.form-steps__item-line {
+	display: inline-block;
+	height: 3px;
+	width: 100%;
+	background: #cfd8dc;
+	float: left;
+	position: absolute;
+	left: -50%;
+	top: 34px;
+	z-index: 1;
+}
+.form-steps__item--active .form-steps__item-icon {
+	background: #359733;
+	color: #ffffff;
+}
+.form-steps__item--active .form-steps__item-text {
+	color: #4f5e77;
+}
+.form-steps__item--active .form-steps__item-line {
+	/* background: #359733; */
+}
+.form-steps__item--completed .form-steps__item-text {
+	color: #4f5e77;
+}
+.form-steps__item--completed .form-steps__item-icon {
+	background: #359733;
+	color: transparent;
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+}
+.form-steps__item--completed .form-steps__item-line {
+	background: #359733;
+}
+/* ............... */
+.content-green {
+	background: #3f3d56;
+	color: #ffffff;
+}
+.content-black {
+	background: #359733;
+	color: #ffffff;
+}
